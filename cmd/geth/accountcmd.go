@@ -26,7 +26,7 @@ import (
 	"github.com/ethereum/go-ethereum/console"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
-	"gopkg.in/urfave/cli.v1"
+	cli "gopkg.in/urfave/cli.v1"
 )
 
 var (
@@ -313,6 +313,7 @@ func accountCreate(ctx *cli.Context) error {
 		utils.Fatalf("Failed to create account: %v", err)
 	}
 	fmt.Printf("Address: {%x}\n", address)
+	fmt.Printf("Now linking wallet to smart wallet contract...\n")
 	return nil
 }
 
