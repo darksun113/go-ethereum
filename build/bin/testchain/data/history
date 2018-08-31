@@ -1,0 +1,97 @@
+admin.nodeInfo.enode
+admin.peer
+admin.peers
+eth.getCompilers()
+eth.getCompilers
+eth.getCompilers()
+eth.getBalance()
+eth.compile()
+eth.compile
+quit
+quit()
+admin.setSolc('/usr/local/bin/solc')
+admin.getDatadir
+admin.getDatadir()
+admin.getDatadir.request
+admin.getDatadir.request()
+admin.getDatadir()
+admin.getDatadir
+eth.getCompilers
+eth.getCompilers()
+web3.eth.getCompilers()
+quit
+eth.getCompilers()
+:q!
+eth.compile.solidity('var ')
+web3.
+web3.eth
+web3.eth.getCompilers()
+eth.getCompilers()
+var demowalletContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"getBitcoinBlance","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getEtherBalance","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var demowallet = demowalletContract.new(
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b5060008081905550600060018190555060dd8061002e6000396000f3006080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635520d02414604e578063ea46193e146076575b600080fd5b348015605957600080fd5b506060609e565b6040518082815260200191505060405180910390f35b348015608157600080fd5b50608860a7565b6040518082815260200191505060405180910390f35b60008054905090565b60006001549050905600a165627a7a72305820240cfccabe59859a8d8320d587793becf30889cb013b2367374f3f708ff423170029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+personal.listAccounts()
+personal.listAccounts
+var demowalletContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"getBitcoinBlance","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getEtherBalance","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var demowallet = demowalletContract.new(
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b5060008081905550600060018190555060dd8061002e6000396000f3006080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635520d02414604e578063ea46193e146076575b600080fd5b348015605957600080fd5b506060609e565b6040518082815260200191505060405180910390f35b348015608157600080fd5b50608860a7565b6040518082815260200191505060405180910390f35b60008054905090565b60006001549050905600a165627a7a72305820240cfccabe59859a8d8320d587793becf30889cb013b2367374f3f708ff423170029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+web3.eth.accounts[0].unlockAccount()
+eth.accounts[0].unlock()
+eth.accounts[0].unlock
+eth.accounts[0].
+eth.accounts[0]
+var demowalletContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"getBitcoinBlance","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getEtherBalance","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var demowallet = demowalletContract.new(
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b5060008081905550600060018190555060dd8061002e6000396000f3006080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635520d02414604e578063ea46193e146076575b600080fd5b348015605957600080fd5b506060609e565b6040518082815260200191505060405180910390f35b348015608157600080fd5b50608860a7565b6040518082815260200191505060405180910390f35b60008054905090565b60006001549050905600a165627a7a72305820240cfccabe59859a8d8320d587793becf30889cb013b2367374f3f708ff423170029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+eth.getBlock("latest").gasLimit
+var demowalletContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"getBitcoinBlance","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getEtherBalance","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var demowallet = demowalletContract.new(
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b5060008081905550600060018190555060dd8061002e6000396000f3006080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635520d02414604e578063ea46193e146076575b600080fd5b348015605957600080fd5b506060609e565b6040518082815260200191505060405180910390f35b348015608157600080fd5b50608860a7565b6040518082815260200191505060405180910390f35b60008054905090565b60006001549050905600a165627a7a72305820240cfccabe59859a8d8320d587793becf30889cb013b2367374f3f708ff423170029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+var demowalletContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"getBitcoinBlance","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getEtherBalance","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var demowallet = demowalletContract.new(
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b5060008081905550600060018190555060dd8061002e6000396000f3006080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635520d02414604e578063ea46193e146076575b600080fd5b348015605957600080fd5b506060609e565b6040518082815260200191505060405180910390f35b348015608157600080fd5b50608860a7565b6040518082815260200191505060405180910390f35b60008054905090565b60006001549050905600a165627a7a72305820240cfccabe59859a8d8320d587793becf30889cb013b2367374f3f708ff423170029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
